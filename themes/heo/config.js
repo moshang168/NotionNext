@@ -21,8 +21,7 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'MOSHANG.EU.ORG',
-  HEO_HERO_TITLE_4: '
-welcome',
+  HEO_HERO_TITLE_4: 'welcome',
   HEO_HERO_TITLE_5: '酒逢知己千杯少，话不投机半句多。',
   HEO_HERO_TITLE_LINK: 'https://www.moshang168.eu.org',
   // 英雄区遮罩文字
@@ -32,6 +31,7 @@ welcome',
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
   HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
   HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
