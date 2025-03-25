@@ -22,7 +22,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'MOSHANG.EU.ORG',
   HEO_HERO_TITLE_4: 'welcome',
-  HEO_HERO_TITLE_5: '酒逢知己千杯少，话不投机半句多。',
+  HEO_HERO_TITLE_5: '酒逢知己千杯少，话不投机半句多',
   HEO_HERO_TITLE_LINK: 'https://www.moshang168.eu.org',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
