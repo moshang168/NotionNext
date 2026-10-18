@@ -230,7 +230,7 @@ const ValineComponent = dynamic(() => import('@/components/ValineComponent'), {
 
 const NotionCommentsComponent = dynamic(
   () => import('@/components/NotionComments'),
-  { ssr: false }
+  { ssr: true }
 )
 
 export default Comment
