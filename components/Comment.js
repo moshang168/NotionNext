@@ -168,7 +168,7 @@ const Comment = ({ frontMatter, className }) => {
           )}
 
           {COMMENT_NOTION_ENABLE && (
-            <div key='Notion'>
+            <div key='感谢到访！'>
               <NotionCommentsComponent postId={frontMatter.id} />
             </div>
           )}
