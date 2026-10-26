@@ -21,15 +21,15 @@ const BLOG = {
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://moshang.eu.org', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '墨殇, 博客', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://aka.doubaocdn.com/s/TfJU7gWs4M', // 卡通M字母favicon
-  PWA_ENABLE: process.env.NEXT_PUBLIC_PWA_ENABLE || false, // 是否启用 PWA 安装入口；也可在 Notion_Config 中配置 PWA_ENABLE=true
+  PWA_ENABLE: process.env.NEXT_PUBLIC_PWA_ENABLE || true, // 是否启用 PWA 安装入口；也可在 Notion_Config 中配置 PWA_ENABLE=true
   PWA_NAME: process.env.NEXT_PUBLIC_PWA_NAME || '', // PWA 安装名称；默认读取站点标题，通常无需单独配置
   PWA_SHORT_NAME: process.env.NEXT_PUBLIC_PWA_SHORT_NAME || '', // PWA 短名称；默认读取站点标题，通常无需单独配置
-  PWA_ICON: process.env.NEXT_PUBLIC_PWA_ICON || '', // PWA 页面图标（apple-touch-icon / favicon 回退）；不控制 manifest 安装图标，manifest 使用内置尺寸合规的 PNG
+  PWA_ICON: process.env.NEXT_PUBLIC_PWA_ICON || 'apple-touch-icon', // PWA 页面图标（apple-touch-icon / favicon 回退）；不控制 manifest 安装图标，manifest 使用内置尺寸合规的 PNG
   PWA_ICON_192: process.env.NEXT_PUBLIC_PWA_ICON_192 || '', // 可选：覆盖 manifest 192x192 普通图标；须提供真实 192×192 尺寸的资源路径
   PWA_ICON_512: process.env.NEXT_PUBLIC_PWA_ICON_512 || '', // 可选：覆盖 manifest 512x512 普通图标；须提供真实 512×512 尺寸的资源路径
   PWA_ICON_192_MASKABLE: process.env.NEXT_PUBLIC_PWA_ICON_192_MASKABLE || '', // 可选：覆盖 manifest 192x192 maskable 图标；资源应留有足够安全边距
   PWA_ICON_512_MASKABLE: process.env.NEXT_PUBLIC_PWA_ICON_512_MASKABLE || '', // 可选：覆盖 manifest 512x512 maskable 图标；资源应留有足够安全边距
-  PWA_THEME_COLOR: process.env.NEXT_PUBLIC_PWA_THEME_COLOR || '', // PWA 主题色
+  PWA_THEME_COLOR: process.env.NEXT_PUBLIC_PWA_THEME_COLOR || '#111827', // PWA 主题色
   PWA_BACKGROUND_COLOR: process.env.NEXT_PUBLIC_PWA_BACKGROUND_COLOR || '', // PWA 启动画面背景色
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '萌ICP备838858106', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
